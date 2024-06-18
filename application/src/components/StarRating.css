@@ -1,0 +1,30 @@
+/* src/components/StarRating.css */
+
+.star-rating {
+    display: flex;
+  }
+  
+  .star {
+    position: relative;
+    color: lightgray;
+    font-size: 20px;
+  }
+  
+  .star.filled {
+    color: black;
+  }
+  
+  .star.partial {
+    position: relative;
+  }
+  
+  .partial-filled {
+    color: black;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .partial-empty {
+    color: lightgray;
+  }
+  

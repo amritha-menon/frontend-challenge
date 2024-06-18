@@ -1,0 +1,35 @@
+/* src/components/MovieSearch.css */
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .movie-option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .movie-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .movie-title {
+    font-weight: normal;
+  }
+  
+  .movie-genre {
+    align-self: flex-end;
+    color: gray;
+    margin-left: auto;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: black;
+  }
+  
